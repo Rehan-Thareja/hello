@@ -423,3 +423,7 @@ body{
   .black{
     padding-bottom:100px;
   }
+  .img:hover{
+    box-shadow:10px 10px white;
+  }
+  
