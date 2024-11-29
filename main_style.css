@@ -473,6 +473,30 @@ body{
     gap:4px;
     font-size:21px;
   }
+      .img{
+    height:130px;
+    width:100;
+  }
+  .top{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #image1{
+    background-size:cover;
+  }
+  #image2{
+    background-size:cover;
+  }
+  #image3{
+    background-size:cover;
+  }
+  #image4{
+    background-size:cover;
+  }
+  #image5{
+    background-size:cover;
+  }
  }
 
   
