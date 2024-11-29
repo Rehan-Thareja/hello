@@ -426,81 +426,53 @@ body{
   .img:hover{
     box-shadow:10px 10px white;
   }
-/* For screens smaller than 1024px (Tablets and smaller laptops) */
-@media (max-width: 1024px) {
-  .header {
+ @media (min-width:300px){
+  .header{
+    margin-right: 8px;
+    margin-left: 20px;
+    margin-top: 21px;
+  }
+  .txt{
+    font-size: 28px;
+  }
+  .smalltxt{
+    margin-right:50px;
+    margin-left:50px;
+    display:flex;
     flex-direction: column;
-    margin: 20px;
-  }
-  .icon, .ico {
-    width: 7rem;
-    height: 2rem;
-  }
-  .language-selector {
-    padding: 6px 10px;
-  }
-  .dropdown {
-    top: 30px;
-  }
-  .grid-container {
-    grid-template-columns: 1fr 1fr;
-  }
-  .grid-item {
-    padding: 8px;
-  }
-}
-
-/* For screens smaller than 768px (Mobile landscape) */
-@media (max-width: 768px) {
-  .header {
-    margin: 10px;
-  }
-  .txt {
-    font-size: 30px;
-  }
-  .start {
-    font-size: medium;
-    padding: 10px 15px;
-  }
-  .img {
-    padding: 80px 40px;
-  }
-  .grid-container {
-    grid-template-columns: 1fr;
-  }
-  .extras-items-container {
-    grid-template-columns: 1fr;
-    font-size: 13px;
-  }
-}
-
-/* For screens smaller than 480px (Mobile portrait) */
-@media (max-width: 480px) {
-  .header {
-    margin: 5px;
     justify-content: center;
+    align-items: center;
   }
-  .txt {
-    font-size: 20px;
-    text-align: center;
+  #name{
+    padding-right:0px;
   }
-  .language-selector {
-    font-size: 12px;
-    padding: 4px 8px;
+  .button{
+    display:flex;
+    font-size:16px;
+    padding-right:0px;
+    padding-left:0px;
   }
-  .grid-container {
-    grid-template-columns: 1fr;
+  .start{
+    padding-right:13px;
+    padding-left:13px;
+    padding-top:20px;
+    padding-bottom:20px;
   }
-  .img {
-    padding: 50px 20px;
+  .info{
+    display:flex;
+    flex-direction: column;
+    margin-bottom:102px;
   }
-  .get-start {
-    font-size: small;
-    padding: 10px;
+  .flexer{
+    flex-direction: row;
+    margin-left:-25px;
   }
-  .details {
-    font-size: 14px;
+  .medium{
+    display:flex;
+    flex-direction: row;
+    gap:4px;
+    font-size:21px;
   }
-}
+ }
 
   
